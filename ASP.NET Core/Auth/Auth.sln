@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auth.Jwt", "Auth.Jwt\Auth.Jwt.csproj", "{67181A2F-11CF-4D8D-8E5B-9D11ECF78FA8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auth.Jwt.Sample", "Auth.Jwt.Sample\Auth.Jwt.Sample.csproj", "{FCAF82DA-357C-4BC8-98C3-0D4F0F682973}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3B787E81-971E-4902-A3A0-12943F7D10DA}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Packages.props = Directory.Packages.props
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67181A2F-11CF-4D8D-8E5B-9D11ECF78FA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67181A2F-11CF-4D8D-8E5B-9D11ECF78FA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67181A2F-11CF-4D8D-8E5B-9D11ECF78FA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67181A2F-11CF-4D8D-8E5B-9D11ECF78FA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCAF82DA-357C-4BC8-98C3-0D4F0F682973}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCAF82DA-357C-4BC8-98C3-0D4F0F682973}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCAF82DA-357C-4BC8-98C3-0D4F0F682973}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCAF82DA-357C-4BC8-98C3-0D4F0F682973}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
